@@ -1,0 +1,25 @@
+# ========================================
+# requirements.txt - LOCAL (VSCode)
+# Minimal dependencies for frontend only
+# ========================================
+streamlit>=1.29.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Note: No need for langchain, chromadb, sentence-transformers
+# These are handled by the Colab backend!
+
+
+# ========================================
+# colab_requirements.txt - COLAB BACKEND
+# (These are installed via pip in Colab)
+# ========================================
+# flask
+# pyngrok
+# chromadb
+# sentence-transformers
+# PyPDF2
+# langchain
+# langchain-community
+# langchain-google-genai
+# python-dotenv
